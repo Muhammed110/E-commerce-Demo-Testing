@@ -4,6 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.TestNG;
 import org.testng.annotations.AfterClass;
@@ -42,11 +43,6 @@ public class TestBase extends AbstractTestNGCucumberTests {
             Helper.captureScreenshot(driver,result.getName());
         }
     }
-    /*@AfterClass
-    public void openTheHomePageAfterFinishEachClass()
-    {
-        driver.get("https://demo.nopcommerce.com/");
-    }*/
     @AfterSuite
     public void stopDriver()
     {
