@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test name="Test">
+        <classes>
+            <class name="tests.AddReviewTest"/>
+            <class name="tests.AddToComparisonTest"/>
+            <class name="tests.ChangeCurrency"/>
+            <class name="tests.CheckOutAfterRegistrationTest"/>
+            <class name="tests.CheckOutWithoutLogIn"/>
+            <class name="tests.ContactUsTest"/>
+            <class name="tests.ContactUsWithoutLoginTest"/>
+            <class name="tests.LoginPageTest"/>
+            <class name="tests.LogoutTest"/>
+            <class name="tests.MyAccountTest"/>
+            <class name="tests.ProductHoverMenuTest"/>
+            <class name="tests.ReferToFriendTest"/>
+            <class name="tests.RegisterNewUserTest"/>
+            <class name="tests.SearchTest"/>
+            <class name="tests.SearchUsingAutoSuggest"/>
+            <class name="tests.ShoppingCartTest"/>
+            <class name="tests.WishListTest"/>
+        </classes>
+    </test>
+</suite>

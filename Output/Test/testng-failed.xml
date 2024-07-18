@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.ProductHoverMenuTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="userCanSelectElementsFromHoverMenu"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.CheckOutWithoutLogIn">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+          <include name="userCanCompleteOrdersWithoutRegistration"/>
+        </methods>
+      </class> <!-- tests.CheckOutWithoutLogIn -->
+      <class name="tests.SearchUsingAutoSuggest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanSearchForProductUsingAutoSuggestionSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.SearchUsingAutoSuggest -->
+      <class name="tests.WishListTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanRemoveItemsFromWishListSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="userCanAddItemsToWishListSuccessfully"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.WishListTest -->
+      <class name="tests.ShoppingCartTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="userCanChangeProductQuantitySuccessfully"/>
+          <include name="userCanRemoveElementsFromCartSuccessfully"/>
+          <include name="screenshotOnFail"/>
+          <include name="userCanAddProductToCartSuccessfully"/>
+        </methods>
+      </class> <!-- tests.ShoppingCartTest -->
+      <class name="tests.RegisterNewUserTest">
+        <methods>
+          <include name="userCanRegisterSuccessfully"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.RegisterNewUserTest -->
+      <class name="tests.MyAccountTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanLogoutAndSignInWithNewPassword"/>
+          <include name="stopDriver"/>
+          <include name="userCanChangePassword"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.MyAccountTest -->
+      <class name="tests.AddToComparisonTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="userCanAddProductsToCompareSuccessfully"/>
+          <include name="screenshotOnFail"/>
+          <include name="userCanDeleteAllItemsFromTheComparison"/>
+        </methods>
+      </class> <!-- tests.AddToComparisonTest -->
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanLoginSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.CheckOutAfterRegistrationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="userCanCompleteCheckOutSuccessfully"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.CheckOutAfterRegistrationTest -->
+      <class name="tests.SearchTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanSearchForProductSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.SearchTest -->
+      <class name="tests.ReferToFriendTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+          <include name="userCanReferProductToFriendSuccessfully"/>
+        </methods>
+      </class> <!-- tests.ReferToFriendTest -->
+      <class name="tests.LogoutTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanLogoutSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.LogoutTest -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="userCanUseContactUsSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFail"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test] -->
