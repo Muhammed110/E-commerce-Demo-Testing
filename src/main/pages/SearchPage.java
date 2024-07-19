@@ -24,7 +24,7 @@ public class SearchPage extends PageBase{
     WebElement searchBtn;
     @FindBy(id="ui-id-1")
     List<WebElement> dropDownSearch;
-    @FindBy(css="h2.product-title")
+    @FindBy(css="div.item-box")
     WebElement searchResultItem;
     @FindBy(css="div.product-name")
     public WebElement productName;
