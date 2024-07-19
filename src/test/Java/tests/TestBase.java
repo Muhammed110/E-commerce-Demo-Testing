@@ -29,7 +29,12 @@ public class TestBase extends AbstractTestNGCucumberTests {
     public void startDriver()
     {
 
-        driver = new ChromeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("disable-gpu");
+        chromeOptions.addArguments("--window-size=1325x744");
+        driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.get("https://demo.nopcommerce.com/");
     }
